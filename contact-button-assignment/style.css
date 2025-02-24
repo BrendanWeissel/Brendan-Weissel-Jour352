@@ -1,0 +1,34 @@
+/*
+MY COLOR PALETTE
+Color 1 - #FFC759
+Color 2 - #0F7173
+Color 3 - #86BBD8
+Color 4 - #5B2E48
+Color 5 - #011627
+*/
+body {
+    background-color: #0f7173;
+    text-align: center;
+}
+
+button {
+    background-color: #011627;
+    color: #86bbd8;
+    font-family: "Outfit", serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    border: none;
+    width: 300px;
+    padding: 15px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #5b2e48;
+}
+
+h1 {
+    font-family: "Zilla Slab", serif;
+}
