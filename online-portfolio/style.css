@@ -3,7 +3,6 @@ MY COLOR PALETTE
 color 1: #868596 gray
 color 2: #c48e7c brownish
 */
-
 @media {
     img {
         width: 100%;
@@ -16,7 +15,7 @@ color 2: #c48e7c brownish
         font-size: 115px;
         margin: 30px 0px -24px 50px;
         text-align: center;
-        letter-spacing: 2px
+        letter-spacing: 2px;
     }
     h2 {
         font-family: "League Spartan", serif;
@@ -29,10 +28,14 @@ color 2: #c48e7c brownish
         background-color: #868596;
         color: white;
         font-family: "League Spartan", serif;
-        text-align-last: center;
+        text-align: center;
         font-size: 70px;
-border: none;
-        
+        border-bottom: 16px solid #c48e7c;
+    }
+
+    #intro p {
+        padding: 10px 0px 0px 0px;
+        margin: 0px;
     }
 
     button {
@@ -44,16 +47,14 @@ border: none;
         padding: 20px;
         font-size: 50px;
         height: 150px;
-  border: none; 
-margin: 0px auto 0px auto;
+        border: none;
+        margin: 0px auto 0px auto;
         display: block;
-}
     }
 
     button:hover {
         background-color: #372b2c;
     }
 }
-
 @media (min-width: 576px) {
 }
