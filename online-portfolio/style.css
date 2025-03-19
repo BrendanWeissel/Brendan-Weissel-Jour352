@@ -24,6 +24,23 @@ color 2: #c48e7c brownish
         text-align: center;
     }
 
+    h3 {
+        font-size: 100px;
+        text-align: center;
+        font-family: "League Spartan", serif;
+        background-color: #868596;
+        color: white;
+    }
+
+    h6 {
+        font-family: "League Spartan", serif;
+        padding: 10px;
+        font-size: 30px;
+        text-align: center;
+        background-color: #868596;
+        color: white;
+    }
+
     #intro {
         background-color: #868596;
         color: white;
@@ -38,7 +55,7 @@ color 2: #c48e7c brownish
         margin: 0px;
     }
 
-    button {
+    .button {
         background-color: #c48e7c;
         color: white;
         font-family: "League Spartan", serif;
@@ -50,11 +67,81 @@ color 2: #c48e7c brownish
         border: none;
         margin: 0px auto 0px auto;
         display: block;
+        text-align: center;
+        line-height: 110px;
     }
 
-    button:hover {
+    .button:hover {
         background-color: #372b2c;
     }
-}
-@media (min-width: 576px) {
+
+    .button:active {
+        background-color: #4169e1;
+    }
+
+    .experience-section {
+        background-color: #868596;
+        padding: none;
+        margin: none;
+    }
+
+    .job-title {
+        font-family: "League Spartan", serif;
+        color: white;
+    }
+
+    .company {
+        font-family: "League Spartan", serif;
+        color: white;
+    }
+
+    .description {
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        text-indent: 12px;
+    }
+
+    .job-date {
+        font-family: "League Spartan", serif;
+        color: white;
+    }
+
+    .skillright {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .skillsleft {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .schoolname {
+        color: white;
+        font-family: "League Spartan", serif;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .degree {
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+        padding-left: 20px;
+    }
+
+    .education-section {
+        background-color: #868596;
+    }
+
+    .education-list li {
+        color: white;
+    }
+
+    .education-list {
+        list-style-type: disc;
+    }
+
+    @media (min-width: 576px) {
+    }
 }
