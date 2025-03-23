@@ -20,9 +20,10 @@
         <link href="style.css" rel="stylesheet" />
     </head>
 
+    <!-- INTRO -->
     <body>
         <div class="container-fluid">
-            <div class="row">
+            <div class="row" id="namebutton">
                 <div class="col-sm-8">
                     <h1>Brendan Weissel</h1>
                     <h2>Journalist</h2>
@@ -33,18 +34,26 @@
                 </div>
             </div>
             <div class="row" id="intro">
-                <div class="col-sm-4" id="experience"><p>Experience</p></div>
+                <div class="col-sm-4" id="experience">
+                    <p><a href="#experience-section">Experience</a></p>
+                </div>
                 <div class="col-sm-4" id="skills">
-                    <p>Skills</p>
+                    <p><a href="#skills-section">Skills</a></p>
                 </div>
                 <div class="col-sm-4" id="education">
-                    <p>Education</p>
+                    <p><a href="#education-section">Education</a></p>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid">
-            <div class="col-sm-12"><h3 class="experience">Experience</h3></div>
+        <!-- EXPERIENCE -->
+
+        <div class="container-fluid content">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 id="experience-section">Experience</h3>
+                </div>
+            </div>
 
             <div class="experience-section">
                 <div class="row">
@@ -123,48 +132,60 @@
             </div>
         </div>
 
-        <div class="container-fluid" id="sections">
-            <div class="col-sm-12"><h3>Skills</h3></div>
+        <!-- SKILLS -->
+
+        <div class="container-fluid content">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 id="skills-section">Skills</h3>
+                </div>
+            </div>
 
             <div class="skills-section">
                 <div class="row">
                     <div class="col-md-6 text-center">
-                        <h6>Skill 1</h6>
-                        <h6>Skill 3</h6>
-                        <h6>Skill 5</h6>
-                        <h6>Skill 7</h6>
-                        <h6>Skill 9</h6>
-                        <h6>Skill 11</h6>
+                        <h6>Video Editing</h6>
+                        <h6>Interviewing</h6>
+                        <h6>Audio Editing</h6>
+                        <h6>Broadcast Writing</h6>
                     </div>
                     <div class="col-md-6 text-center">
-                        <h6>Skill 2</h6>
-                        <h6>Skill 4</h6>
-                        <h6>Skill 6</h6>
-                        <h6>Skill 8</h6>
-                        <h6>Skill 10</h6>
-                        <h6>Skill 12</h6>
+                        <h6>Social Media Strategy</h6>
+                        <h6>Graphic Design</h6>
+                        <h6>Research</h6>
+                        <h6>Local News Reporting</h6>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid">
-            <div class="col-sm-12"><h3>Education</h3></div>
+        <!-- EDUCATION -->
+
+        <div class="container-fluid content">
+            <div class="row">
+                <div class="col-sm-12" id="education-section"><h3>Education</h3></div>
+            </div>
 
             <div class="education-section">
-                <ul class="education-list">
-                    <li>
-                        <p class="schoolname">Philip Merrill College of Journalism, University of Maryland (UMD)</p>
-                        <p class="degree">Bachelor of Arts in Journalism Expected: May 2026</p>
-                    </li>
-                    <li>
-                        <p class="schoolname">Shirley Povich Center for Sports Journalism Education Abroad</p>
-                        <p class="degree">
-                            Traveled to Rwanda and Senegal in Summer 2024 to report on the globalization of basketball
-                            and NBA Academy Africa
-                        </p>
-                    </li>
-                </ul>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <ul class="education-list">
+                            <li>
+                                <p class="schoolname">
+                                    Philip Merrill College of Journalism, University of Maryland (UMD)
+                                </p>
+                                <p class="degree">Bachelor of Arts in Journalism Expected: May 2026</p>
+                            </li>
+                            <li>
+                                <p class="schoolname">Shirley Povich Center for Sports Journalism Education Abroad</p>
+                                <p class="degree">
+                                    Traveled to Rwanda and Senegal in Summer 2024 to report on the globalization of
+                                    basketball and NBA Academy Africa
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
