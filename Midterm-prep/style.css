@@ -2,7 +2,7 @@
     #headshot {
         width: 300px;
         float: left;
-        margin: 30px;
+        margin: 0px 20px 0px -1px;
     }
 
     body {
@@ -15,17 +15,36 @@
         font-size: 20px;
     }
 
-    #contact:hover {
+    #contact a:hover {
         color: red;
     }
 
     #info {
-        width: 700px;
+        width: 100%;
         margin: auto;
     }
 
     footer {
         text-align: bottom;
-        text-align: bottom;
+        color: blanchedalmond;
+        background-color: aquamarine;
+        padding: 20px;
+        width: 100%;
+        position: fixed;
+        bottom: 0px;
+    }
+
+    p {
+        color: black;
+    }
+}
+
+@media (min-width: 576px) {
+    #info {
+        width: 700px;
+    }
+
+    #headshot {
+        float: left;
     }
 }
