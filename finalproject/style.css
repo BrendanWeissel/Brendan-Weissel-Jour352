@@ -1,90 +1,198 @@
-#headlineleft img {
-    width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
+@media screen {
+    .intro {
+        font-family: "Oswald", sans-serif;
+    }
+
+    #headline {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #headline h1 {
+        font-size: 100px;
+        line-height: 1.2;
+        font-weight: bold;
+        color: black;
+        margin-bottom: 15px;
+    }
+
+    #headline h6 {
+        font-size: 30px;
+        color: black;
+        font-weight: normal;
+    }
+
+    #headlinepic {
+        text-align: center;
+    }
+
+    #headlinepic img {
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+
+    #headlinepic p {
+        font-size: 20px;
+        color: grey;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bodytext {
+        background-color: white;
+        border-radius: 8px;
+        margin: 0 15px 40px;
+        padding: 30px 40px;
+        font-family: "Oswald", sans-serif;
+    }
+
+    .bodytext h4 {
+        font-size: 60px;
+        font-weight: bold;
+        margin: 20px 20px 20px 0px;
+        text-align: center;
+    }
+
+    .bodytext p {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .pull-quote {
+        font-size: 45px;
+        font-weight: 500;
+        line-height: 1.3;
+        margin: 40px 0;
+        padding: 10px 40px;
+        border-left: 10px solid blue;
+    }
+
+    .pull-quote-attribution {
+        font-size: 35px;
+        font-style: italic;
+        text-align: right;
+        margin-top: 15px;
+    }
+
+    #victor p {
+        font-size: 20px;
+        color: grey;
+        text-align: center;
+    }
+
+    #victor img {
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+
+    .shotchart p {
+        font-size: 20px;
+        color: grey;
+        text-align: center;
+    }
+
+    .shotchart img {
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
 }
 
-#headlineleft {
-    font-family: "Oswald", sans-serif;
+@media (max-width: 768px) {
+    #headline h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    #headline h6 {
+        font-size: 18px;
+    }
+    #headlinepic img {
+        width: 95%;
+    }
+    .bodytext {
+        padding: 15px 20px;
+    }
+    .bodytext h4 {
+        font-size: 30px;
+        margin: 15px 0px 15px 0px;
+    }
+    .bodytext p {
+        font-size: 18px;
+    }
+    .pull-quote {
+        font-size: 24px;
+        padding: 5px 20px;
+        margin: 20px 0;
+        border-left: 10px solid blue;
+    }
+    .pull-quote-attribution {
+        font-size: 18px;
+    }
+    .shotchart img {
+        width: 95%;
+    }
+
+    #victor p {
+        font-size: 14px;
+    }
+
+    .shotchart p {
+        font-size: 14px;
+    }
+
+    #headlinepic p {
+        font-size: 14px;
+    }
 }
 
-#headlineleft h1 {
-    font-size: 399%;
-    text-align: center;
-    font-weight: bold;
-    padding: 10px;
-}
+@media (min-width: 768px) and (max-width: 992px) {
+    #headline h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    #headline h6 {
+        font-size: 15px;
+    }
+    #headlinepic img {
+        width: 95%;
+    }
+    .bodytext h4 {
+        font-size: 50px;
+        margin: 15px 0px 15px 0px;
+    }
+    .bodytext p {
+        font-size: 18px;
+    }
+    .pull-quote {
+        font-size: 24px;
+        padding: 5px 20px;
+        margin: 20px 0;
+        border-left: 10px solid blue;
+    }
+    .pull-quote-attribution {
+        font-size: 18px;
+    }
+    .shotchart img {
+        width: 95%;
+    }
 
-#headlineleft h6 {
-    font-size: 120%;
-    text-align: center;
-    font-weight: lighter;
-    color: gray;
-}
+    #victor p {
+        font-size: 16px;
+    }
 
-#headlineleft p {
-    font-size: 140%;
-    text-align: center;
-    color: black;
-}
+    .shotchart p {
+        font-size: 16px;
+    }
 
-#headlinepic img {
-    width: 100%;
-}
-
-#headlinepic p {
-    font-size: 140%;
-    text-align: center;
-    color: black;
-}
-
-.bodytext {
-    background-color: white;
-    border-radius: 8px;
-    margin: 0 15px 40px;
-    padding: 30px 40px;
-    font-family: "Oswald", sans-serif;
-}
-
-.bodytext h4 {
-    font-size: 60px;
-    font-weight: bold;
-    margin: 20px 20px 20px 20px;
-    text-align: left;
-}
-
-.bodytext p {
-    font-size: 28px;
-    margin-bottom: 20px;
-    font-weight: 30px;
-}
-
-.pull-quote {
-    font-size: 45px;
-    font-weight: 500;
-    line-height: 1.3;
-    margin: 40px 0;
-    padding: 10px 40px;
-    border-left: 10px solid #ff0000;
-}
-
-.pull-quote-attribution {
-    font-size: 35px;
-    font-style: italic;
-    text-align: right;
-    margin-top: 15px;
-}
-
-#victor p {
-    font-size: 155%;
-    text-align: center;
-    color: gray;
-}
-
-#3chart p {
-    font-size: 155%;
-    text-align: center;
-    color: gray;
+    #headlinepic p {
+        font-size: 16px;
+    }
 }
